@@ -46,12 +46,13 @@
     "@angular/flex-layout": "11.0.0-beta.33",
     "@angular/forms": "^11.0.4",
     "@angular/platform-browser": "^11.0.4",
-    "@angular/platform-browser-dynamic": "^11.0.4"
+    "@angular/platform-browser-dynamic": "^11.0.4",
+    "ng-zorro-antd": "^11.4.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1100.4",
     "@angular-devkit/build-ng-packagr": "^0.1002.0",
-    "@angular/cli": "^11.0.4",
+    "@angular/cli": "^11.2.14",
     "@angular/compiler-cli": "^11.0.4",
     "@types/node": "^14.14.13",
     "codelyzer": "^6.0.1",

@@ -17,6 +17,12 @@
   background-color: #fff;
 }
 
+.color-picker.open {
+  top: 40px !important;
+  left: 0px !important;
+  position: absolute !important;
+}
+
 .color-picker * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -144,9 +150,11 @@
 }
 
 .color-picker .button-area {
-  padding: 0 16px 16px;
+  border-top: 1px solid #e6e6e6;
 
-  text-align: right;
+  padding: 16px 16px;
+
+  text-align: center;
 }
 
 .color-picker .button-area button {
@@ -440,4 +448,17 @@
   display: inline-block;
 
   font-size: 10px;
+}
+
+.ant-btn {
+  border-radius: 10px !important;
+}
+
+.ant-btn-primary {
+  background: #009fda;
+}
+
+.ant-btn-background-ghost.ant-btn-primary {
+  color: #009fda;
+  border-color: #009fda;
 }
